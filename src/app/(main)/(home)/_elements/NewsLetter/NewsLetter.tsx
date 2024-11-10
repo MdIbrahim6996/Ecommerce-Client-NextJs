@@ -4,16 +4,16 @@ import { Hourglass, Rocket, Truck } from "lucide-react";
 const NewsLetter = async () => {
   return (
     <section className="section-container">
-      <div className="flex items-center justify-between gap-10">
-        <div className="mt-[4rem] flex-1">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
+        <div className="mt-[4rem]">
           <p className="heading">Subscribe</p>
-          <p className="my-2 text-center text-lg">
+          <p className="text-center text-lg md:-mt-[2rem]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
             quod.
           </p>
           <form
             action=""
-            className="my-10 flex flex-col items-center justify-center gap-4 px-20"
+            className="my-10 flex flex-col items-center justify-center gap-4 md:px-20"
           >
             <input
               type="text"
@@ -25,7 +25,7 @@ const NewsLetter = async () => {
             </button>
           </form>
         </div>
-        <div className="flex-1 space-y-10">
+        <div className="space-y-10">
           <p className="text-center text-2xl">
             Follow us on Instagram{" "}
             <span className="font-semibold">@future</span>
@@ -51,7 +51,7 @@ const NewsLetter = async () => {
         </div>
       </div>
 
-      <section className="mt-[8rem] grid grid-cols-4">
+      <section className="mt-[8rem] grid md:grid-cols-4">
         <div className="flex flex-col items-center text-center">
           <Truck size={80} absoluteStrokeWidth strokeWidth={5} />
           <p className="mt-2 text-xl font-semibold uppercase">

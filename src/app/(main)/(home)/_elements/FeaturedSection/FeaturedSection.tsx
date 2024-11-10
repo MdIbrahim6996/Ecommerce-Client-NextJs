@@ -33,7 +33,7 @@ const FeaturedSection = async () => {
           asperiores?
         </p>
       </div>
-      <div className="my-10 grid grid-cols-3 gap-4">
+      <div className="my-10 grid grid-cols-1 gap-4 md:grid-cols-3">
         {productList.map((product) => (
           <ProductCard product={product} />
         ))}

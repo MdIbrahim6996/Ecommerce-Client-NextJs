@@ -33,7 +33,7 @@ const NewArrival = async () => {
           asperiores?
         </p>
       </div>
-      <div className="my-10 grid grid-cols-3 gap-4">
+      <div className="my-10 grid md:grid-cols-3 grid-cols-1 gap-4">
         {productList.map((product) => (
           <ProductCard product={product} />
         ))}

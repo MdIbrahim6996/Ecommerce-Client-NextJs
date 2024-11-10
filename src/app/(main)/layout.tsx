@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${PoppinsFont.variable}`}>
+      <body className={`${PoppinsFont.variable} overflow-x-hidden`}>
         <Navbar />
         {children}
         <Footer />

@@ -1,13 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* *{
+  border: 1px solid red
+} */
 
 .section-container {
-  @apply px-[10%] my-[13rem] mx-auto;
+  @apply mx-auto my-[6rem] px-[5%] md:my-[13rem] md:px-[10%];
+}
+
+.section-container-y {
+  @apply mx-auto my-[6rem] md:my-[13rem];
 }
 
 .heading {
-  @apply text-6xl font-semibold capitalize text-center;
+  @apply mb-6 text-center text-4xl font-semibold capitalize md:mb-16 md:text-6xl;
 }
 
 body {
